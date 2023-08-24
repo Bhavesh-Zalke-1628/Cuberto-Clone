@@ -1,0 +1,139 @@
+@font-face{
+    font-family: main;
+    src: url("./matter-regular.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: main;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+#nav{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#nav img{
+    width: 100px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+#nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#000;
+    letter-spacing: 0.5px;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+#home #homemain{
+    width:100%;
+    padding: 13vw 15vw;
+}
+#homemain h2{
+    font-weight: 400;
+    font-size: 1.7vw;
+    letter-spacing: -0.1vw;
+}
+.heading{
+    display: flex;
+    gap: 40px;
+}
+.heading h1{
+    font-size: 7vw;
+    color: transparent;
+    -webkit-text-stroke: 0.1px black;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+#homeLast{
+    padding: 5vw 15vw;
+}
+#homeLast p{
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    width: 53%;
+}
+#homeLast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+#featured{
+    padding: 10vw 15vw;    
+}
+.fheading>h1{
+    line-height: 1;
+    font-size: 3vw;
+    font-weight: 400;
+    width: 100px;
+}
+.fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke:1px#000;
+}
+#fImage{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+#fleft{
+    width: 45%;
+    height: inherit;
+    overflow:   ;
+}
+.fleftelem{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fleftelem h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.fleftelem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+.fleftelem h4{
+    opacity: .5;
+}
+#fright{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#fright #images{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
